@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Clicker Game</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="points-display">
+            <h2>Points: <span id="points">0</span></h2>
+            <div class="multiplier">Multiplier: x<span id="multiplier">1.0</span></div>
+        </div>
+
+        <div class="click-area" id="clickArea">
+            <div class="click-button">TAP!</div>
+        </div>
+
+        <div class="game-menu">
+            <button class="menu-button" id="shopButton">Shop</button>
+            <button class="menu-button" id="leaderboardButton">Leaderboard</button>
+            <button class="menu-button" id="referralButton">Invite Friends</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
